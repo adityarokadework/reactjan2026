@@ -72,8 +72,6 @@ const UseState = () => {
       <p>Age: {user.age}</p>
       <p>City: {user.city}</p>
 
-
-
       {/* props drilling */}
 
       {/* <Navbar1 name="" /> */}

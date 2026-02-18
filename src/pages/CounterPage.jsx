@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 const CounterPage = () => {
 
-   const [count, setCount] = useState(0);
+   const [count, setCount] = useState(10);
    const [name , setName] = useState("ESTPL")
 
   return (

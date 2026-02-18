@@ -9,6 +9,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 // import NavBar from './components/NavBar'
 import CounterPage from './pages/CounterPage'
 import UseState from './pages/UseState'
+import UseEffectPage from './pages/UseEffectPage'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
 
             <Route path='/usestate' element={<UseState/>}></Route>
             <Route path='/counter' element={<CounterPage/>}></Route>
+            <Route path='/useeffect' element={<UseEffectPage/>}></Route>
             
         </Routes>
         {/* <Footer/> */}
