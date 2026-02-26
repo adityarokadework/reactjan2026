@@ -10,6 +10,13 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import CounterPage from './pages/CounterPage'
 import UseState from './pages/UseState'
 import UseEffectPage from './pages/UseEffectPage'
+import FormDemo from './pages/FormDemo'
+import Users from './pages/Users'
+import UserDetail from './pages/UserDetail'
+import Todo from './pages/Todo'
+import UseMemoDemo from './pages/UseMemoDemo'
+import UseRefFocus from './pages/UseRefFocus'
+import UseRef2 from './pages/UseRef2'
 
 
 function App() {
@@ -27,6 +34,18 @@ function App() {
             <Route path='/usestate' element={<UseState/>}></Route>
             <Route path='/counter' element={<CounterPage/>}></Route>
             <Route path='/useeffect' element={<UseEffectPage/>}></Route>
+                
+            <Route path='/users' element={<Users/>}></Route>
+            <Route path='/user/:id' element={<UserDetail/>}></Route>
+
+
+            <Route path='/form' element={<FormDemo/>}></Route>
+            <Route path='/todo' element={<Todo/>}></Route>
+
+            <Route path='/usememopage' element={<UseMemoDemo/>}></Route>
+            <Route path='/useref' element={<UseRefFocus/>}></Route>
+            <Route path='/useref2' element={<UseRef2/>}></Route>
+
             
         </Routes>
         {/* <Footer/> */}
